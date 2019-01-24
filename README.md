@@ -25,7 +25,7 @@ Besides, there is an additional "group.txt" file in Cora and DBLP.
 * group.txt: Each vertex in Cora has been annotated with a label. This file can be used for vertex classification.
 
 ## Reference
-The implementation of this paper is based on [CANE](https://github.com/thunlp/CANE)
+The implementation of this paper is based on [CANE](https://github.com/thunlp/CANE).
 
 ## Cite
 Please cite our paper if it helps with your research
