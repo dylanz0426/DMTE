@@ -1,5 +1,5 @@
 # DMTE
-This repository is the implementation for paper [Diffusion Maps for Textual Network Embedding](https://arxiv.or/pdf/1805.09906.pdf)
+This repository is the implementation for paper [Diffusion Maps for Textual Network Embedding](https://arxiv.or/pdf/1805.09906.pdf).
 
 ## Dependencies
 * Tensorflow == 1.12
