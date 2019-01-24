@@ -27,7 +27,7 @@ Besides, there is an additional "group.txt" file in Cora and DBLP.
 ## Reference
 The implementation of this paper is based on [CANE](https://github.com/thunlp/CANE).
 
-## Cite
+## Citation
 Please cite our paper if it helps with your research
 ```latex
 @inproceedings{zhang2018adversarial,
