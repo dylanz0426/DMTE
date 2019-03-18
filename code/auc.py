@@ -2,12 +2,13 @@ import random
 import numpy as np
 
 node2vec = {}
-#f = open('embed.txt', 'rb') # embed_cora_swem_1_0.15
 f = open('embed.txt', 'rb')
 for i, j in enumerate(f):
     if j != '\n':
         node2vec[i] = map(float, j.strip().split(' '))
-f1 = open('test_graph.txt','rb')
+#f1 = open('../datasets/cora/graph.txt', 'rb')
+#f1 = open('../datasets/dblp/graph.txt', 'rb')
+f1 = open('../datasets/zhihu/graph.txt', 'rb')
 edges = [map(int, i.strip().split('\t')) for i in f1]
 nodes = list(set([i for j in edges for i in j]))
 a = 0
