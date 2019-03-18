@@ -21,14 +21,12 @@ import random
 
 
 # load data
-#graph_path = '../datasets/HepTh/graph.txt'
-#text_path = '../datasets/HepTh/data.txt'
-graph_path = '../datasets/zhihu/graph.txt'
-text_path = '../datasets/zhihu/data.txt'
 #graph_path = '../datasets/cora/graph.txt'
 #text_path = '../datasets/cora/data.txt'
 #graph_path = '../datasets/dblp/graph.txt'
 #text_path = '../datasets/dblp/data.txt'
+graph_path = '../datasets/zhihu/graph.txt'
+text_path = '../datasets/zhihu/data.txt'
 
 data = dataSet(text_path, graph_path)
 
