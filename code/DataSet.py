@@ -35,12 +35,9 @@ class dataSet:
 
     def load_edges(self, graph_file):
         edges = []
-        fw = open('test_graph.txt','wb')
         for i in graph_file:
             if np.random.uniform(0.0, 1.0) <= config.ratio:
                 edges.append(map(int, i.strip().split('\t')))
-	    else:
-                fw.write(i)
 
         return edges
 
